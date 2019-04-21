@@ -5,93 +5,100 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>Portfolio - Jeff Welch</title>
+  <title>Portfolio</title>
 </head>
 
-<body class="main">
-  <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <a class="navbar-brand" id="name">Jeff Welch</a>
-    <a class="navbar-brand" id="link" href="index.html">About</a>
-    <a class="navbar-brand" id="link" href="portfolio.html">Portfolio</a>
-    <a class="navbar-brand" id="link" href="Contact.html">Contact</a>
-  </nav>
+<body>
+  <div class="container">
+      <div id="nav" class="buttons">
+          <span style="font-size: 5em; color:aliceblue;">
+              <a href="index.html"><i class="fas fa-home"></i></a>
+              <a href="about.html"><i class="fas fa-info"></i></a>
+              <a href="contact.html"><i class="far fa-address-card "></i></a> 
+              <a href="portfolio.html"><i class="fas fa-briefcase"></i></a> 
+              <a href="mailto:hatchet28@me.com"> <i class="fas fa-at"></i></a> 
+          </span>
+        </div>
+  </div>
+ 
 
   <!-- body -->
+  <div class="container">
+    <div class="projects">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="assets/crystal collector.png" alt="Card image cap">
+          <div class="card-body">
+            <h5>Crystal Collector Game</h5>
+            <p class="card-text">Try to match the random number by clickin on the 4 crystals.</p>
+            <a id="link" href="https://goldenst.github.io/unit-4-game/">Crystal Colector</a>
 
-  <div class="projects">
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="assets/crystal collector.png" alt="Card image cap">
-        <div class="card-body"><h5>Crystal Colector Game</h5>
-          <p class="card-text">Try to match the random number by clickin on the 4 crystals.</p>
-          <a href="https://goldenst.github.io/unit-4-game/">Crystal Colector</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/cravesac.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Crave Sacramento</h5>
+            <p class="card-text">Not sure to cook or eat out, search restaurants or recipies in the Sacramento area.</p>
+            <a id="link" href="https://jenniferhjones.github.io/Project1/">Crave Sacramento</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/driver productivity.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Train Scheduler</h5>
+            <p class="card-text"> Put in the train start time and interval and see when the next train arrives </p>
 
+          </div>
         </div>
       </div>
-      <div class="card">
-        <img class="card-img-top" src="assets/cravesac.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Crave Sacramento</h5>
-          <p class="card-text">Not sure to cook or eat out, search resturans or recipies in the Sacramento area.</p>
-          <a href="https://jenniferhjones.github.io/Project1/">Crave Sacramento</a>
+
+    </div>
+    <div class="projects-two">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="assets/giphy.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Giphy Cards</h5>
+            <p class="card-text">Search for funny pictures with your criteria</p>
+            <a id="link" href="https://goldenst.github.io/gihy/">Giphys</a>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="assets/driver productivity.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Train scheduler</h5>
-          <p class="card-text"> put in the train start time and interval and see when the next train arrives </p>
-        
+        <div class="card">
+          <img class="card-img-top" src="assets/90strivia.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">90's Trivia</h5>
+            <p class="card-text">Can you guess all 10 answers correctley in the time aloted.</p>
+            <a id="link" href="https://goldenst.github.io/triviaGame/">900's Trivia Game</a>
+          </div>
+        </div>
+        <div class="card" id="last">
+          <img class="card-img-top" src="assets/driver productivity.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">TowDuctivity</h5>
+            <p class="card-text">This is a productivity dashboard project
+          </div>
+          <a id="link" href="https://obscure-forest-26510.herokuapp.com/">Towductivity site</a>
         </div>
       </div>
     </div>
-
-  </div>
-  <div class="projects-two">
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="assets/giphy.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Giphy Cards</h5>
-          <p class="card-text">search for funny pictures with you criteria</p>
-          <a href="https://goldenst.github.io/gihy/">Giphys</a>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="assets/90strivia.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">90's Trivia</h5>
-          <p class="card-text">Can ou guess all 10 awnsers correctley in the time aloted.</p>
-          <a href="https://goldenst.github.io/triviaGame/">900's Trivia Game</a>
-        </div>
-      </div>
-      <div class="card" id="last">
-        <img class="card-img-top" src="assets/driver productivity.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This card has even longer content than the first to show that equal height action.</p>
-        </div>
-      </div>
-    </div>
+<br>
+    <footer class="bg-light">
+        Copyright &copy; 2018
+      </footer>
   </div>
 
-  <!-- Footer -->
 
-  <footer class="bg-light">
-    Copyright &copy; 2018
-  </footer>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
